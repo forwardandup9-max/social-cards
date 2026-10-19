@@ -1,0 +1,20 @@
+{
+  "name": "social-cards",
+  "owner": {
+    "name": "forwardandup9-max"
+  },
+  "metadata": {
+    "description": "Plugins from the social-cards repository"
+  },
+  "plugins": [
+    {
+      "name": "social-cards",
+      "source": "./",
+      "description": "Composio skill and MCP server for connecting agents to Gmail, Slack, GitHub, Notion and other apps",
+      "version": "0.1.0",
+      "strict": false,
+      "skills": ["./.agents/skills/"],
+      "mcpServers": "./.mcp.json"
+    }
+  ]
+}
