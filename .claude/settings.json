@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "pixelrag-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "StarTrail-org/PixelRAG"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "pixelbrowse@pixelrag-plugins": true
+  }
+}
